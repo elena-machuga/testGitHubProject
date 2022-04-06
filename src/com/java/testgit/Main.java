@@ -6,5 +6,6 @@ public class Main {
          System.out.println(rectangle.calculateArea());
          Rectangle rectangle1 = new Rectangle(15, 20);
          System.out.println(rectangle1.calculatePerimeter());
+         System.out.println("hello");
      }
 }
