@@ -5,6 +5,4 @@ public class Main {
          Rectangle rectangle=new Rectangle(10,5);
          System.out.println(rectangle.calculateArea());
      }
-
-
 }
