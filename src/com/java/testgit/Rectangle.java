@@ -14,6 +14,10 @@ public class Rectangle {
        return height*length;
    }
 
+   public int calculatePerimeter(){
+       return 2*(height+length);
+   }
+
     public int getHeight() {
         return height;
     }
@@ -21,6 +25,7 @@ public class Rectangle {
     public void setHeight(int height) {
         if(height<=0){
            this.height=DEFAULT_VALUE;
+            System.out.println("The height value was set to default value "+DEFAULT_VALUE);
         }else {
             this.height = height;
         }
@@ -33,6 +38,7 @@ public class Rectangle {
     public void setLength(int length) {
         if (length<=0){
             this.length=DEFAULT_VALUE;
+            System.out.println("The height value was set to default value "+DEFAULT_VALUE);
         }else {
             this.length = length;
         }
